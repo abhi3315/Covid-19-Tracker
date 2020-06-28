@@ -17,3 +17,9 @@ export const caseTimeSeries = async () => {
     const data = await result.json()
     return data.cases_time_series
 }
+
+export const globalData = async () => {
+    const result = await fetch(`${api}/global?order_by=total_cases`)
+    const data = await result.json()
+    return data
+}

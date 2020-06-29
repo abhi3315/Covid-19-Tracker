@@ -63,7 +63,7 @@ export default function Row(props) {
                                     <TableRow key={row.CountryCode}>
                                         <TableCell align="center">{row.NewConfirmed}</TableCell>
                                         <TableCell align="center">{row.NewRecovered}</TableCell>
-                                        <TableCell>{row.NewDeaths}</TableCell>
+                                        <TableCell align="center">{row.NewDeaths}</TableCell>
                                         <TableCell align="center">{row.Date}</TableCell>
                                     </TableRow>
                                 </TableBody>

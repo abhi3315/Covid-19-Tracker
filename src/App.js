@@ -11,14 +11,16 @@ function App() {
     return (
         <Router>
             <Header />
-            <Switch>
-                <Router exact path="/">
-                    <World />
-                </Router>
-                <Router path="/india">
-                    <India />
-                </Router>
-            </Switch>
+            <div className="data-container">
+                <Switch>
+                    <Router exact path="/">
+                        <World />
+                    </Router>
+                    <Router path="/india">
+                        <India />
+                    </Router>
+                </Switch>
+            </div>
         </Router>
     )
 }

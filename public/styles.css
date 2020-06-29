@@ -1,0 +1,46 @@
+body {
+    font-family: 'Belgrano', serif;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.data-container {
+    padding: 50px 15px;
+}
+
+.table-container::-webkit-scrollbar {
+    display: none;
+}
+
+.table-container {
+    height: 70vh;
+    overflow: scroll;
+    margin-top: 30px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.header-data h2 {
+    display: inline-block;
+}
+
+.header-data img{
+    transform: translateY(-10px);
+    margin-left: 10px;
+}
+
+.data{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.data p{
+    font-size: 10px;
+    color: gray;
+}

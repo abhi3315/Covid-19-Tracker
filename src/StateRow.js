@@ -29,7 +29,6 @@ export default function StateRow(props) {
                 <TableCell align="center" component="th" scope="row">
                     {row.state}
                 </TableCell>
-                <TableCell align="center">{row.active}</TableCell>
                 <TableCell align="center">{row.confirmed}</TableCell>
                 <TableCell align="center">{row.recovered}</TableCell>
                 <TableCell align="center">{row.deaths}</TableCell>

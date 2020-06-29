@@ -1,3 +1,7 @@
+* {
+    outline: none;
+}
+
 body {
     font-family: 'Belgrano', serif;
 }
@@ -10,6 +14,7 @@ body {
 
 .data-container {
     padding: 50px 15px;
+    min-height: 87vh;
 }
 
 .table-container::-webkit-scrollbar {
@@ -28,19 +33,27 @@ body {
     display: inline-block;
 }
 
-.header-data img{
+.header-data img {
     transform: translateY(-10px);
     margin-left: 10px;
 }
 
-.data{
+.data {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
-.data p{
+.data p {
     font-size: 10px;
     color: gray;
+}
+
+footer {
+    background-color: #343A40;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    color: white;
 }

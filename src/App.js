@@ -6,6 +6,8 @@ import {
 import Header from './Header'
 import India from './India'
 import World from './World'
+import District from './District'
+import Footer from './Footer'
 
 function App() {
     return (
@@ -16,11 +18,15 @@ function App() {
                     <Router exact path="/">
                         <World />
                     </Router>
-                    <Router path="/india">
+                    <Router exact path="/india">
                         <India />
+                    </Router>
+                    <Router exact path="/india/district">
+                        <District />
                     </Router>
                 </Switch>
             </div>
+            <Footer />
         </Router>
     )
 }

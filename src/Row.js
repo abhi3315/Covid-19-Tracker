@@ -1,15 +1,15 @@
-import React from 'react';
-import Box from '@material-ui/core/Box';
-import Collapse from '@material-ui/core/Collapse';
-import IconButton from '@material-ui/core/IconButton';
-import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
-import TableCell from '@material-ui/core/TableCell';
-import TableHead from '@material-ui/core/TableHead';
-import TableRow from '@material-ui/core/TableRow';
-import Typography from '@material-ui/core/Typography';
-import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
-import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
+import React from 'react'
+import Box from '@material-ui/core/Box'
+import Collapse from '@material-ui/core/Collapse'
+import IconButton from '@material-ui/core/IconButton'
+import Table from '@material-ui/core/Table'
+import TableBody from '@material-ui/core/TableBody'
+import TableCell from '@material-ui/core/TableCell'
+import TableHead from '@material-ui/core/TableHead'
+import TableRow from '@material-ui/core/TableRow'
+import Typography from '@material-ui/core/Typography'
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown'
+import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp'
 import { makeStyles } from '@material-ui/core/styles'
 
 const useRowStyles = makeStyles({
@@ -21,9 +21,9 @@ const useRowStyles = makeStyles({
 })
 
 export default function Row(props) {
-    const { row } = props;
-    const [open, setOpen] = React.useState(false);
-    const classes = useRowStyles();
+    const { row } = props
+    const [open, setOpen] = React.useState(false)
+    const classes = useRowStyles()
 
     return (
         <React.Fragment>
@@ -56,7 +56,7 @@ export default function Row(props) {
                                         <TableCell align="center">New Confirmed</TableCell>
                                         <TableCell align="center">New Recovered</TableCell>
                                         <TableCell align="center">New Deaths</TableCell>
-                                        <TableCell align="center">Updated At</TableCell>
+                                        <TableCell align="center">Last Updated At</TableCell>
                                     </TableRow>
                                 </TableHead>
                                 <TableBody>
@@ -73,5 +73,5 @@ export default function Row(props) {
                 </TableCell>
             </TableRow>
         </React.Fragment>
-    );
+    )
 }

@@ -8,6 +8,7 @@ import {
 } from '@material-ui/pickers'
 import { Spinner } from 'react-bootstrap'
 import { caseTimeSeries } from './utils/api'
+import Chart from './Chart'
 
 class TimeSeries extends React.Component {
     state = {
@@ -108,6 +109,10 @@ class TimeSeries extends React.Component {
                                 />
                             </Grid>
                         </MuiPickersUtilsProvider>
+                        <div style={{ marginTop: "50px" }}>
+                            <Chart data={dataToShow} />
+                            <div className="hide"></div>
+                        </div>
                     </React.Fragment>}
             </React.Fragment>
         )

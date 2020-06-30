@@ -57,3 +57,15 @@ footer {
     text-align: center;
     color: white;
 }
+
+.canvasjs-chart-credit {
+    display: none;
+}
+
+.hide {
+    height: 20px;
+    width: 60px;
+    position: absolute;
+    background-color: white;
+    transform: translateY(-20px);
+}

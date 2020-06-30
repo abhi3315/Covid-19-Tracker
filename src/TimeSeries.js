@@ -79,10 +79,10 @@ class TimeSeries extends React.Component {
                             <Grid container justify="space-around">
                                 <KeyboardDatePicker
                                     disableToolbar
-                                    maxDate={maxDate}
+                                    maxDate={toDate}
                                     minDate={minDate}
                                     variant="inline"
-                                    format="MM/dd/yyyy"
+                                    format="dd/MM/yyyy"
                                     margin="normal"
                                     id="date-picker-inline1"
                                     label="From"
@@ -95,9 +95,9 @@ class TimeSeries extends React.Component {
                                 <KeyboardDatePicker
                                     disableToolbar
                                     maxDate={maxDate}
-                                    minDate={minDate}
+                                    minDate={fromDate}
                                     variant="inline"
-                                    format="MM/dd/yyyy"
+                                    format="dd/MM/yyyy"
                                     margin="normal"
                                     id="date-picker-inline2"
                                     label="To"

@@ -20,7 +20,7 @@ class Chart extends Component {
             theme: "light",
             animationEnabled: true,
             title: {
-                text: "Covid-19 Statistics"
+                text: "Covid-19 Statistics India"
             },
             axisY: {
                 includeZero: false,

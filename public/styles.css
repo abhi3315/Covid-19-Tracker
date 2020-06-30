@@ -69,3 +69,9 @@ footer {
     background-color: white;
     transform: translateY(-20px);
 }
+
+.collapsible {
+    border-radius: 10px;
+    padding: 10px 30px 5px 30px;
+    box-shadow: -3px -3px 5px rgba(0, 0, 0, 0.63), 5px 5px 10px rgb(170, 170, 170);
+}

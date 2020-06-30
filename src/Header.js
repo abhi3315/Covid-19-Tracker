@@ -11,7 +11,7 @@ function Header() {
                     <Nav.Link href='/'>Global</Nav.Link>
                     <Nav.Link href='/india'>India</Nav.Link>
                     <Nav.Link href='/india/district'>Indian District</Nav.Link>
-                    <Nav.Link href='/india/cases'>Indian Cases Time Series</Nav.Link>
+                    <Nav.Link href='/india/cases'>Indian Cases Statistics</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

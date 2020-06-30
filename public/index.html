@@ -9,6 +9,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Belgrano&display=swap" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" href="./logo.png" type="image/png">
+  <link rel="apple-touch-icon" href="./logo.png">
   <link rel="stylesheet" href="/styles.css">
   <title>Covid-19</title>
 </head>
@@ -16,6 +19,14 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./serviceworker.js')
+      })
+    }
+  </script>
 </body>
 
 </html>

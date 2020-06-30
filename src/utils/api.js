@@ -13,9 +13,9 @@ export const districtWiseData = async () => {
 }
 
 export const caseTimeSeries = async () => {
-    const result = await fetch(`${api}/cases_time_series`)
+    const result = await fetch(`${api}/india/cases_time_series`)
     const data = await result.json()
-    return data.cases_time_series
+    return data
 }
 
 export const globalData = async () => {

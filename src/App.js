@@ -9,6 +9,7 @@ import World from './World'
 import District from './District'
 import Footer from './Footer'
 import TimeSeries from './TimeSeries'
+import NotFound from './NotFound'
 
 function App() {
     return (
@@ -27,6 +28,9 @@ function App() {
                     </Router>
                     <Router exact path="/india/cases">
                         <TimeSeries />
+                    </Router>
+                    <Router path="*">
+                        <NotFound />
                     </Router>
                 </Switch>
             </div>

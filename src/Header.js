@@ -10,8 +10,8 @@ function Header() {
                 <Nav className="ml-auto">
                     <Nav.Link href='/'>Global</Nav.Link>
                     <Nav.Link href='/india'>India</Nav.Link>
-                    <Nav.Link href='/india/district'>Indian District</Nav.Link>
-                    <Nav.Link href='/india/cases'>Indian Cases Statistics</Nav.Link>
+                    <Nav.Link href='/indian-district'>Indian District</Nav.Link>
+                    <Nav.Link href='/indian-cases'>Indian Cases Statistics</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

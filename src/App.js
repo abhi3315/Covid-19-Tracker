@@ -23,10 +23,10 @@ function App() {
                     <Router exact path="/india">
                         <India />
                     </Router>
-                    <Router exact path="/india/district">
+                    <Router exact path="/indian-district">
                         <District />
                     </Router>
-                    <Router exact path="/india/cases">
+                    <Router exact path="/indian-cases">
                         <TimeSeries />
                     </Router>
                     <Router path="*">
